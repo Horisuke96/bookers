@@ -4,4 +4,6 @@ resources :books
 
 get 'top' => 'homes#top'
 
+root :to => 'homes#top'
+
 end
